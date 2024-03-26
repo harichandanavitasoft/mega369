@@ -26,12 +26,18 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css"
+              
+             
+              
               
 
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.js"
+             
+             
             ],
             "server": "src/main.server.ts",
             "prerender": true,
@@ -101,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "95b54479-2aa4-4fce-bc00-9c2c9bdd49f3"
   }
 }
