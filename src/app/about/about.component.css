@@ -1,0 +1,209 @@
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+    padding: 140px 0 60px 0;
+    min-height: 30vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .breadcrumbs:before {
+    content: "";
+    background-color: rgba(27, 47, 69, 0.7);
+    position: absolute;
+    inset: 0;
+  }
+  
+  .breadcrumbs h2 {
+    font-size: 56px;
+    font-weight: 500;
+    color: #fff;
+    font-family: var(--font-secondary);
+  }
+  
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+  
+  .breadcrumbs ol a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.3s;
+  }
+  
+  .breadcrumbs ol a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumbs ol li+li {
+    padding-left: 10px;
+  }
+  
+  .breadcrumbs ol li+li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #fff;
+    content: "/";
+  }
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about .content h3 {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+  }
+  
+  .about .content p {
+    margin: 30px 0;
+    color: #29486a;
+  }
+  
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about .content ul li {
+    padding: 0 0 15px 26px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .about .content ul i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: -3px;
+    color: var(--color-primary);
+  }
+
+/*--------------------------------------------------------------
+# Team Section
+--------------------------------------------------------------*/
+.team .team-member {
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  .team .team-member .member-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .team .team-member .social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    background: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team .team-member .social a {
+    transition: color 0.3s;
+    color: #31547c;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team .team-member .social a i {
+    line-height: 0;
+  }
+  
+  .team .team-member .social a:hover {
+    color: var(--color-primary);
+  }
+  
+  .team .team-member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }
+  
+  .team .team-member .member-info {
+    padding: 25px 15px 0 15px;
+    text-align: center;
+  }
+  
+  .team .team-member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: var(--color-secondary);
+  }
+  
+  .team .team-member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #6c757d;
+  }
+  
+  .team .team-member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #6c757d;
+  }
+  
+  .team .team-member:hover .social {
+    opacity: 1;
+  }
+
+/*--------------------------------------------------------------
+# Sections & Section Header
+--------------------------------------------------------------*/
+section {
+    overflow: hidden;
+    padding: 80px 0;
+  }
+  
+  .section-header {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-header h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-header h2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #56b8e6;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .section-header p {
+    margin-bottom: 0;
+  }      
