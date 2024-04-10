@@ -5,11 +5,14 @@ import { HeaderComponent } from './header/header.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 
+import { DTCPProjectComponent } from './dtcp-project/dtcp-project.component';
+
 export const routes: Routes = [
     {path:'',component:HeaderComponent,children:[
         {path:'',component:HomeComponent},
          {path:'about',component:AboutComponent},
          {path:'blog',component:BlogComponent},
-         {path:'contact',component:ContactComponent}
+         {path:'contact',component:ContactComponent},
+         {path:'DTCP',component:DTCPProjectComponent}
     ]}
 ];
