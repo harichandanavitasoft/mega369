@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { DTCPProjectComponent } from './dtcp-project/dtcp-project.component';
 import { FarmlandComponent } from './farmland/farmland.component';
 import { BlogDetails1Component } from './blog-details-1/blog-details-1.component';
+import { BlogDetails3Component } from './blog-details-3/blog-details-3.component';
 
 export const routes: Routes = [
     {path:'',component:HeaderComponent,children:[
@@ -18,6 +19,9 @@ export const routes: Routes = [
         
          {path:'contact',component:ContactComponent},
          {path:'DTCP',component:DTCPProjectComponent},
-         {path:'Farm',component:FarmlandComponent}
+         {path:'Farm',component:FarmlandComponent},
+         {path:'blog2',component:BlogDetails1Component},
+         {path:'blog3',component:BlogDetails3Component}
+         
     ]}
 ];

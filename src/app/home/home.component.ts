@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, HostListener, OnInit } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import AOS from "aos";
 
 
 
@@ -13,7 +14,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
   ngOnInit(): void {
-  
+  AOS.init();
  
    
   }
