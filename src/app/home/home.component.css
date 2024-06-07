@@ -127,7 +127,7 @@
   
   #hero p {
     width: 80%;
-    animation-delay: 0.4s;
+    /* animation-delay: 0.4s; */
     margin: 0 auto 30px auto;
     color: #fff;
   }
@@ -158,7 +158,7 @@
     line-height: 1;
     margin: 10px;
     color: #fff;
-    animation-delay: 0.8s;
+    /* animation-delay: 0.8s; */
     border: 2px solid #dc3545;
   }
   
@@ -318,7 +318,7 @@
   margin: 0 10px -6px 0;
   border: 3px solid #059652;
   border-top-color: #fff;
-  animation: animate-loading 1s linear infinite;
+ 
 }
 
 .get-started .php-email-form input,

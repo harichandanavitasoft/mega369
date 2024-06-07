@@ -8,7 +8,7 @@ import AOS from "aos";
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule,RouterOutlet,RouterLink],
+  imports: [CommonModule,RouterOutlet,RouterLink,HomeComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

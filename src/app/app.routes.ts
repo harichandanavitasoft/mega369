@@ -16,12 +16,11 @@ export const routes: Routes = [
          {path:'about',component:AboutComponent},
          {path:'blog',component:BlogComponent},
             {path:'blog1',component:BlogDetails1Component},
-        
-         {path:'contact',component:ContactComponent},
-         {path:'DTCP',component:DTCPProjectComponent},
-         {path:'Farm',component:FarmlandComponent},
-         {path:'blog2',component:BlogDetails1Component},
-         {path:'blog3',component:BlogDetails3Component}
+             {path:'contact',component:ContactComponent},
+             {path:'DTCP',component:DTCPProjectComponent},
+            {path:'Farm',component:FarmlandComponent},
+            {path:'blog2',component:BlogDetails1Component},
+            {path:'blog3',component:BlogDetails3Component}
          
-    ]}
+        ]}
 ];
